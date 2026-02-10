@@ -57,7 +57,7 @@ Note: Files must include your name or alias AND the domain like we do in the exa
 ## 01: Set Up Machine (Once Per Machine)
 
 Follow the detailed instructions at:
-[**01. Set Up Your Machine**](https://denisecase.github.io/pro-analytics-02/01-set-up-machine/)
+[**01. Set Up Your Machine**](https://kander643.github.io/pro-analytics-02/01-set-up-machine/)
 
 ## 02: Set Up Project (Once Per Project)
 
@@ -110,14 +110,14 @@ uvx pre-commit run --all-files
 ```
 
 Fore more detailed instructions and troubleshooting, see the pro guide at:
-[**02. Set Up Your Project**](https://denisecase.github.io/pro-analytics-02/02-set-up-project/)
+[**02. Set Up Your Project**](https://kander643.github.io/pro-analytics-02/02-set-up-project/)
 
 🛑 Do not continue until all REQUIRED steps are complete and verified.
 
 ## 03: Daily Workflow (Working With Python Project Code)
 
 Follow the detailed instructions at:
-[**03. Daily Workflow**](https://denisecase.github.io/pro-analytics-02/03-daily-workflow/)
+[**03. Daily Workflow**](https://kander643.github.io/pro-analytics-02/03-daily-workflow/)
 
 Commands are provided below to:
 
@@ -137,7 +137,7 @@ git pull
 Run the Python source files:
 
 ```shell
-uv run python -m datafun_05_sql.case_duckdb_retail
+uv run python -m datafun_05_sql.kander643_duckdb_shelter
 ```
 
 Run Python checks and tests (as available):

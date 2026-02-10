@@ -1,0 +1,74 @@
+-- sql/duckdb/kander643_shelter_clean.sql
+-- ============================================================
+-- PURPOSE
+-- ============================================================
+-- Completely removes shelter tables from the DuckDB database (DuckDB).
+-- This "clean" step is used to reset the database so we can rebuild it.
+-- Creating a multi-table schema from scratch is a common practice in database management,
+-- and we often need to remove existing tables before recreating them during development or testing.
+--
+-- ASSUMPTION:
+-- We always run all commands from the project root directory.
+--
+-- EXPECTED PROJECT PATHS (relative to repo root):
+--   SQL:  sql/duckdb/kander643_shelter_clean.sql
+--   CSV:  data/shelter/store.csv
+--   CSV:  data/shelter/sale.csv
+--   DB:   artifacts/duckdb/shelter.duckdb
+--
+--
+-- ============================================================
+-- TOPIC DOMAINS + 1:M RELATIONSHIPS
+-- ============================================================
+-- OUR DOMAINS:
+-- Each domain (e.g. shelter) has two tables.
+-- They are related in a 1-to-many relationship (1:M).
+--
+-- GENERAL:
+-- In a 1-to-many relationship:
+-- - The one table (1) is the independent/parent table.
+--   It does not depend on any other table.
+-- - The many table (M) is the dependent/child table.
+--   It depends on the independent/parent table.
+-- - They are related by a foreign key in the dependent/child table
+--   that references the primary key in the independent/parent table.
+--
+-- REQ: Tables must be removed in reverse order (CHILD FIRST, THEN PARENT)
+--      to avoid foreign key constraint issues.
+--
+--
+-- ============================================================
+-- EXECUTION: ATOMIC CLEAN (ALL OR NOTHING)
+-- ============================================================
+-- Use a transaction to ensure atomicity.
+-- Atomicity: either all operations succeed,
+-- or none do and the database remains unchanged.
+-- Start with BEGIN TRANSACTION; and end with COMMIT; if all succeed.
+-- If any operation fails, the database will ROLLBACK to undo all changes.
+-- This ensures the database is never left in a partial or inconsistent state.
+BEGIN TRANSACTION;
+--
+--
+-- ============================================================
+-- STEP 1: DROP TABLES (CHILD FIRST, THEN PARENT)
+-- ============================================================
+-- IMPORTANT:
+-- When removing tables in a 1:M relationship, drop the dependent/child table first.
+-- In retail:
+-- - sale depends on store (sale has store_id).
+-- Therefore:
+-- - Drop sale first, then drop store.
+--
+-- Drop the dependent/child table (M) first.
+DROP TABLE IF EXISTS adoption;
+
+-- Drop the independent/parent table (1) second.
+DROP TABLE IF EXISTS shelter;
+--
+--
+-- ============================================================
+-- FINISH EXECUTION: ATOMIC CLEAN (ALL OR NOTHING)
+-- ============================================================
+-- If we reach this point, all operations succeeded.
+-- Therefore, commit the transaction to make the changes permanent.
+COMMIT;
