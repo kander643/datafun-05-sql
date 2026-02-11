@@ -10,9 +10,9 @@ Purpose:
 
 Paths (relative to repo root):
    SQL:  sql/duckdb/*.sql
-   CSV:  data/retail/store.csv
-   CSV:  data/retail/sale.csv
-   DB:   artifacts/duckdb/retail.duckdb
+   CSV:  data/shelter/shelter.csv
+   CSV:  data/shelter/adoption.csv
+   DB:   artifacts/duckdb/shelter.duckdb
 
 """
 
@@ -39,8 +39,8 @@ SQL_DIR: Final[Path] = ROOT_DIR / "sql" / "duckdb"
 ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts" / "duckdb"
 DB_PATH: Final[Path] = ARTIFACTS_DIR / "shelter.duckdb"
 
-STORE_CSV: Final[Path] = DATA_DIR / "store.csv"
-SALE_CSV: Final[Path] = DATA_DIR / "sale.csv"
+STORE_CSV: Final[Path] = DATA_DIR / "shelter.csv"
+SALE_CSV: Final[Path] = DATA_DIR / "adoption.csv"
 
 # === DECLARE HELPER FUNCTION:  READ SQL FROM PATH ===
 
@@ -116,7 +116,7 @@ def run_sql_query(con: duckdb.DuckDBPyConnection, sql_path: Path) -> None:
 
 def main() -> None:
     """Run the pipeline."""
-    log_header(LOG, "P05 Pipeline Example (DuckDB)")
+    log_header(LOG, "P05 Pipeline (DuckDB)")
 
     LOG.info("START main()")
     LOG.info(f"ROOT_DIR: {ROOT_DIR}")
@@ -152,7 +152,7 @@ def main() -> None:
         # ----------------------------------------------------
         # STEP 4: RUN KPI QUERY (ACTION-DRIVEN)
         # ----------------------------------------------------
-        run_sql_query(con, SQL_DIR / "kander643_shelter_query_kpi_revenue.sql")
+        run_sql_query(con, SQL_DIR / "kander643_shelter_query_kpi_adoption_rate.sql")
 
     finally:
         # Regardless of success or failure, always close the connection

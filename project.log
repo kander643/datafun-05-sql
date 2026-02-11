@@ -112,3 +112,297 @@
 2026-02-09 20:13:32 | INFO | P05 | S001, North Market, Duluth, North, 2, 165.0, 82.5
 2026-02-09 20:13:32 | INFO | P05 | S003, Central Plaza, Mankato, South, 1, 60.0, 60.0
 2026-02-09 20:13:32 | INFO | P05 | END main()
+2026-02-10 12:41:14 | INFO | P05 | === RUN START ===
+2026-02-10 12:41:14 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:41:14 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:41:14 | INFO | P05 | python=3.14.2
+2026-02-10 12:41:14 | INFO | P05 | os=Windows 10
+2026-02-10 12:41:14 | INFO | P05 | shell=powershell
+2026-02-10 12:41:14 | INFO | P05 | cwd=.
+2026-02-10 12:41:14 | INFO | P05 | github_actions=False
+2026-02-10 12:41:14 | INFO | P05 | START main()
+2026-02-10 12:41:14 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:41:14 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:41:14 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:41:14 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:41:14 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:41:14 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:41:14 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:48:31 | INFO | P05 | === RUN START ===
+2026-02-10 12:48:31 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:48:31 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:48:31 | INFO | P05 | python=3.14.2
+2026-02-10 12:48:31 | INFO | P05 | os=Windows 10
+2026-02-10 12:48:31 | INFO | P05 | shell=powershell
+2026-02-10 12:48:31 | INFO | P05 | cwd=.
+2026-02-10 12:48:31 | INFO | P05 | github_actions=False
+2026-02-10 12:48:31 | INFO | P05 | START main()
+2026-02-10 12:48:31 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:48:31 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:48:31 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:48:31 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:48:31 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:48:31 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:48:31 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:48:31 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:48:31 | INFO | P05 | 
+2026-02-10 12:48:31 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 12:48:31 | INFO | P05 | ====================================
+2026-02-10 12:48:31 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 12:48:31 | INFO | P05 | ====================================
+2026-02-10 12:48:31 | INFO | P05 | shelter_count
+2026-02-10 12:48:31 | INFO | P05 | 3
+2026-02-10 12:48:31 | INFO | P05 | 
+2026-02-10 12:48:31 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 12:48:31 | INFO | P05 | ====================================
+2026-02-10 12:48:31 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 12:48:31 | INFO | P05 | ====================================
+2026-02-10 12:48:31 | INFO | P05 | adoption_count
+2026-02-10 12:48:31 | INFO | P05 | 5
+2026-02-10 12:48:31 | INFO | P05 | 
+2026-02-10 12:48:31 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:50:41 | INFO | P05 | === RUN START ===
+2026-02-10 12:50:41 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:50:41 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:50:41 | INFO | P05 | python=3.14.2
+2026-02-10 12:50:41 | INFO | P05 | os=Windows 10
+2026-02-10 12:50:41 | INFO | P05 | shell=powershell
+2026-02-10 12:50:41 | INFO | P05 | cwd=.
+2026-02-10 12:50:41 | INFO | P05 | github_actions=False
+2026-02-10 12:50:41 | INFO | P05 | START main()
+2026-02-10 12:50:41 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:50:41 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:50:41 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:50:41 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:50:41 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:50:41 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:50:41 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:50:42 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:50:42 | INFO | P05 | 
+2026-02-10 12:50:42 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | shelter_count
+2026-02-10 12:50:42 | INFO | P05 | 3
+2026-02-10 12:50:42 | INFO | P05 | 
+2026-02-10 12:50:42 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | adoption_count
+2026-02-10 12:50:42 | INFO | P05 | 5
+2026-02-10 12:50:42 | INFO | P05 | 
+2026-02-10 12:50:42 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:50:42 | INFO | P05 | ====================================
+2026-02-10 12:50:42 | INFO | P05 | animal_type, adoption_count, fee_revenue
+2026-02-10 12:50:42 | INFO | P05 | Cat, 2, 135.0
+2026-02-10 12:50:42 | INFO | P05 | Dog, 3, 270.0
+2026-02-10 12:50:42 | INFO | P05 | 
+2026-02-10 12:50:42 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:50:49 | INFO | P05 | === RUN START ===
+2026-02-10 12:50:49 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:50:49 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:50:49 | INFO | P05 | python=3.14.2
+2026-02-10 12:50:49 | INFO | P05 | os=Windows 10
+2026-02-10 12:50:49 | INFO | P05 | shell=powershell
+2026-02-10 12:50:49 | INFO | P05 | cwd=.
+2026-02-10 12:50:49 | INFO | P05 | github_actions=False
+2026-02-10 12:50:49 | INFO | P05 | START main()
+2026-02-10 12:50:49 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:50:49 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:50:49 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:50:49 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:50:49 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:50:49 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:50:49 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:50:49 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:50:49 | INFO | P05 | 
+2026-02-10 12:50:49 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 12:50:49 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 12:50:50 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | shelter_count
+2026-02-10 12:50:50 | INFO | P05 | 3
+2026-02-10 12:50:50 | INFO | P05 | 
+2026-02-10 12:50:50 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 12:50:50 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 12:50:50 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | adoption_count
+2026-02-10 12:50:50 | INFO | P05 | 5
+2026-02-10 12:50:50 | INFO | P05 | 
+2026-02-10 12:50:50 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:50:50 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:50:50 | INFO | P05 | ====================================
+2026-02-10 12:50:50 | INFO | P05 | animal_type, adoption_count, fee_revenue
+2026-02-10 12:50:50 | INFO | P05 | Cat, 2, 135.0
+2026-02-10 12:50:50 | INFO | P05 | Dog, 3, 270.0
+2026-02-10 12:50:50 | INFO | P05 | 
+2026-02-10 12:50:50 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:51:46 | INFO | P05 | === RUN START ===
+2026-02-10 12:51:46 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:51:46 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:51:46 | INFO | P05 | python=3.14.2
+2026-02-10 12:51:46 | INFO | P05 | os=Windows 10
+2026-02-10 12:51:46 | INFO | P05 | shell=powershell
+2026-02-10 12:51:46 | INFO | P05 | cwd=.
+2026-02-10 12:51:46 | INFO | P05 | github_actions=False
+2026-02-10 12:51:46 | INFO | P05 | START main()
+2026-02-10 12:51:46 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:51:46 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:51:46 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:51:46 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:51:46 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:51:46 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:51:46 | INFO | P05 | 
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | shelter_count
+2026-02-10 12:51:46 | INFO | P05 | 3
+2026-02-10 12:51:46 | INFO | P05 | 
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | adoption_count
+2026-02-10 12:51:46 | INFO | P05 | 5
+2026-02-10 12:51:46 | INFO | P05 | 
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | animal_type, adoption_count, fee_revenue
+2026-02-10 12:51:46 | INFO | P05 | Dog, 3, 270.0
+2026-02-10 12:51:46 | INFO | P05 | Cat, 2, 135.0
+2026-02-10 12:51:46 | INFO | P05 | 
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:51:46 | INFO | P05 | ====================================
+2026-02-10 12:51:46 | INFO | P05 | animal_type, adoption_count, fee_revenue, avg_adoption_amount
+2026-02-10 12:51:46 | INFO | P05 | Dog, 3, 270.0, 90.0
+2026-02-10 12:51:46 | INFO | P05 | Cat, 2, 135.0, 67.5
+2026-02-10 12:51:46 | INFO | P05 | 
+2026-02-10 12:51:46 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_kpi_adoption_rate.sql
+2026-02-10 12:53:51 | INFO | P05 | === RUN START ===
+2026-02-10 12:53:51 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 12:53:51 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 12:53:51 | INFO | P05 | python=3.14.2
+2026-02-10 12:53:51 | INFO | P05 | os=Windows 10
+2026-02-10 12:53:51 | INFO | P05 | shell=powershell
+2026-02-10 12:53:51 | INFO | P05 | cwd=.
+2026-02-10 12:53:51 | INFO | P05 | github_actions=False
+2026-02-10 12:53:51 | INFO | P05 | START main()
+2026-02-10 12:53:51 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 12:53:51 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 12:53:51 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 12:53:51 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:53:51 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:53:51 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 12:53:51 | INFO | P05 | 
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | shelter_count
+2026-02-10 12:53:51 | INFO | P05 | 3
+2026-02-10 12:53:51 | INFO | P05 | 
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | adoption_count
+2026-02-10 12:53:51 | INFO | P05 | 5
+2026-02-10 12:53:51 | INFO | P05 | 
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | animal_type, adoption_count, fee_revenue
+2026-02-10 12:53:51 | INFO | P05 | Dog, 3, 270.0
+2026-02-10 12:53:51 | INFO | P05 | Cat, 2, 135.0
+2026-02-10 12:53:51 | INFO | P05 | 
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | kander643_shelter_query_adoption_by_category.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | animal_type, adoption_count, fee_revenue, avg_adoption_amount
+2026-02-10 12:53:51 | INFO | P05 | Dog, 3, 270.0, 90.0
+2026-02-10 12:53:51 | INFO | P05 | Cat, 2, 135.0, 67.5
+2026-02-10 12:53:51 | INFO | P05 | 
+2026-02-10 12:53:51 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_kpi_adoption_rate.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | kander643_shelter_query_kpi_adoption_rate.sql
+2026-02-10 12:53:51 | INFO | P05 | ====================================
+2026-02-10 12:53:51 | INFO | P05 | shelter_id, shelter_name, city, region, adoption_count, total_adoption_revenue, avg_adoption_amount
+2026-02-10 12:53:51 | INFO | P05 | H001, Downtown Shelter, Milwaukee, Humane Society System, 2, 225.0, 112.5
+2026-02-10 12:53:51 | INFO | P05 | H003, South Shelter, Racine, Regional Humane Society Network, 1, 120.0, 120.0
+2026-02-10 12:53:51 | INFO | P05 | H002, West Shelter, Elmbrook, Humane Society System, 2, 60.0, 30.0
+2026-02-10 12:53:51 | INFO | P05 | END main()
+2026-02-10 19:35:26 | INFO | P05 | === RUN START ===
+2026-02-10 19:35:26 | INFO | P05 | project=P05 Pipeline (DuckDB)
+2026-02-10 19:35:26 | INFO | P05 | repo_dir=datafun-05-sql
+2026-02-10 19:35:26 | INFO | P05 | python=3.14.2
+2026-02-10 19:35:26 | INFO | P05 | os=Windows 10
+2026-02-10 19:35:26 | INFO | P05 | shell=powershell
+2026-02-10 19:35:26 | INFO | P05 | cwd=.
+2026-02-10 19:35:26 | INFO | P05 | github_actions=False
+2026-02-10 19:35:26 | INFO | P05 | START main()
+2026-02-10 19:35:26 | INFO | P05 | ROOT_DIR: C:\Repos\datafun-05-sql
+2026-02-10 19:35:26 | INFO | P05 | DATA_DIR: C:\Repos\datafun-05-sql\data\shelter
+2026-02-10 19:35:26 | INFO | P05 | SQL_DIR: C:\Repos\datafun-05-sql\sql\duckdb
+2026-02-10 19:35:26 | INFO | P05 | DB_PATH: C:\Repos\datafun-05-sql\artifacts\duckdb\shelter.duckdb
+2026-02-10 19:35:26 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 19:35:26 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_clean.sql
+2026-02-10 19:35:26 | INFO | P05 | RUN SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 19:35:27 | INFO | P05 | DONE SQL script: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_bootstrap.sql
+2026-02-10 19:35:27 | INFO | P05 | 
+2026-02-10 19:35:27 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_shelter_count.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | kander643_shelter_query_shelter_count.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | shelter_count
+2026-02-10 19:35:27 | INFO | P05 | 3
+2026-02-10 19:35:27 | INFO | P05 | 
+2026-02-10 19:35:27 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_count.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | kander643_shelter_query_adoption_count.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | adoption_count
+2026-02-10 19:35:27 | INFO | P05 | 5
+2026-02-10 19:35:27 | INFO | P05 | 
+2026-02-10 19:35:27 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | kander643_shelter_query_adoption_aggregate.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | animal_type, adoption_count, fee_revenue
+2026-02-10 19:35:27 | INFO | P05 | Dog, 3, 270.0
+2026-02-10 19:35:27 | INFO | P05 | Cat, 2, 135.0
+2026-02-10 19:35:27 | INFO | P05 | 
+2026-02-10 19:35:27 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_adoption_by_category.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | kander643_shelter_query_adoption_by_category.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | animal_type, adoption_count, fee_revenue, avg_adoption_amount
+2026-02-10 19:35:27 | INFO | P05 | Dog, 3, 270.0, 90.0
+2026-02-10 19:35:27 | INFO | P05 | Cat, 2, 135.0, 67.5
+2026-02-10 19:35:27 | INFO | P05 | 
+2026-02-10 19:35:27 | INFO | P05 | RUN SQL query: C:\Repos\datafun-05-sql\sql\duckdb\kander643_shelter_query_kpi_adoption_rate.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | kander643_shelter_query_kpi_adoption_rate.sql
+2026-02-10 19:35:27 | INFO | P05 | ====================================
+2026-02-10 19:35:27 | INFO | P05 | shelter_id, shelter_name, city, region, adoption_count, total_adoption_revenue, avg_adoption_amount
+2026-02-10 19:35:27 | INFO | P05 | H001, Downtown Shelter, Milwaukee, Humane Society System, 2, 225.0, 112.5
+2026-02-10 19:35:27 | INFO | P05 | H003, South Shelter, Racine, Regional Humane Society Network, 1, 120.0, 120.0
+2026-02-10 19:35:27 | INFO | P05 | H002, West Shelter, Elmbrook, Humane Society System, 2, 60.0, 30.0
+2026-02-10 19:35:27 | INFO | P05 | END main()

@@ -66,16 +66,13 @@ CREATE TABLE IF NOT EXISTS shelter (
   region TEXT NOT NULL
 );
 -- Create the `adoption` table using DuckDB SQL syntax and data types.
-CREATE TABLE IF NOT EXISTS adoption (
-  -- Every table must have a primary key that uniquely identifies each record.
-  adoption_id TEXT PRIMARY KEY,
-  -- Foreign key that references the primary key in the shelter table. It cannot be NULL.
-  shelter_id TEXT NOT NULL,
-  -- All remaining fields are also required (NOT NULL).
-  product_category TEXT NOT NULL,
-  quantity INTEGER NOT NULL,
-  amount DOUBLE NOT NULL,
-  adoption_date TEXT NOT NULL
+CREATE TABLE adoption (
+    adoption_id VARCHAR,
+    shelter_id VARCHAR,
+    animal_type VARCHAR,
+    outcome VARCHAR,
+    fee DOUBLE,
+    adopt_date DATE
 );
 --
 --
